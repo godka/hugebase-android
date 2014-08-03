@@ -1,104 +1,101 @@
-/Users/mythkast/Documents/workspace/pig3android/obj/local/armeabi/objs/lua/loadlib.o: \
- /Users/mythkast/Documents/workspace/pig3android/jni/lua/loadlib.c \
- /Users/mythkast/Documents/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/stdlib.h \
- /Users/mythkast/Documents/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/sys/cdefs.h \
- /Users/mythkast/Documents/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/sys/cdefs_elf.h \
- /Users/mythkast/Documents/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/android/api-level.h \
- /Users/mythkast/Documents/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/string.h \
- /Users/mythkast/Documents/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/malloc.h \
- /Users/mythkast/Documents/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/alloca.h \
- /Users/mythkast/Documents/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/strings.h \
- /Users/mythkast/Documents/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/sys/types.h \
- /Users/mythkast/Documents/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/stdint.h \
- /Users/mythkast/Documents/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/sys/_types.h \
- /Users/mythkast/Documents/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/machine/_types.h \
- /Users/mythkast/Documents/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/sys/_wchar_limits.h \
- /Users/mythkast/Documents/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/linux/posix_types.h \
- /Users/mythkast/Documents/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/linux/stddef.h \
- /Users/mythkast/Documents/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/linux/compiler.h \
- /Users/mythkast/Documents/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/asm/posix_types.h \
- /Users/mythkast/Documents/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/asm/types.h \
- /Users/mythkast/Documents/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/linux/types.h \
- /Users/mythkast/Documents/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/machine/kernel.h \
- /Users/mythkast/Documents/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/sys/sysmacros.h \
- /Users/mythkast/Documents/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/memory.h \
- /Users/mythkast/Documents/workspace/pig3android/jni/lua/lua.h \
- /Users/mythkast/Documents/workspace/pig3android/jni/lua/luaconf.h \
- /Users/mythkast/Documents/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/limits.h \
- /Users/mythkast/Documents/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/sys/limits.h \
- /Users/mythkast/Documents/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/linux/limits.h \
- /Users/mythkast/Documents/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/machine/internal_types.h \
- /Users/mythkast/Documents/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/machine/limits.h \
- /Users/mythkast/Documents/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/sys/syslimits.h \
- /Users/mythkast/Documents/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/asm/page.h \
- /Users/mythkast/Documents/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/stdio.h \
- /Users/mythkast/Documents/workspace/pig3android/jni/lua/lauxlib.h \
- /Users/mythkast/Documents/workspace/pig3android/jni/lua/lualib.h
+obj/local/armeabi/objs/lua/loadlib.o: jni/lua/loadlib.c \
+ D:/soft/develop_adt/ndk/platforms/android-19/arch-arm/usr/include/stdlib.h \
+ D:/soft/develop_adt/ndk/platforms/android-19/arch-arm/usr/include/sys/cdefs.h \
+ D:/soft/develop_adt/ndk/platforms/android-19/arch-arm/usr/include/sys/cdefs_elf.h \
+ D:/soft/develop_adt/ndk/platforms/android-19/arch-arm/usr/include/android/api-level.h \
+ D:/soft/develop_adt/ndk/platforms/android-19/arch-arm/usr/include/string.h \
+ D:/soft/develop_adt/ndk/platforms/android-19/arch-arm/usr/include/malloc.h \
+ D:/soft/develop_adt/ndk/platforms/android-19/arch-arm/usr/include/alloca.h \
+ D:/soft/develop_adt/ndk/platforms/android-19/arch-arm/usr/include/strings.h \
+ D:/soft/develop_adt/ndk/platforms/android-19/arch-arm/usr/include/sys/types.h \
+ D:/soft/develop_adt/ndk/platforms/android-19/arch-arm/usr/include/stdint.h \
+ D:/soft/develop_adt/ndk/platforms/android-19/arch-arm/usr/include/sys/_types.h \
+ D:/soft/develop_adt/ndk/platforms/android-19/arch-arm/usr/include/machine/_types.h \
+ D:/soft/develop_adt/ndk/platforms/android-19/arch-arm/usr/include/sys/_wchar_limits.h \
+ D:/soft/develop_adt/ndk/platforms/android-19/arch-arm/usr/include/linux/posix_types.h \
+ D:/soft/develop_adt/ndk/platforms/android-19/arch-arm/usr/include/linux/stddef.h \
+ D:/soft/develop_adt/ndk/platforms/android-19/arch-arm/usr/include/linux/compiler.h \
+ D:/soft/develop_adt/ndk/platforms/android-19/arch-arm/usr/include/asm/posix_types.h \
+ D:/soft/develop_adt/ndk/platforms/android-19/arch-arm/usr/include/asm/types.h \
+ D:/soft/develop_adt/ndk/platforms/android-19/arch-arm/usr/include/linux/types.h \
+ D:/soft/develop_adt/ndk/platforms/android-19/arch-arm/usr/include/machine/kernel.h \
+ D:/soft/develop_adt/ndk/platforms/android-19/arch-arm/usr/include/sys/sysmacros.h \
+ D:/soft/develop_adt/ndk/platforms/android-19/arch-arm/usr/include/memory.h \
+ jni/lua/lua.h jni/lua/luaconf.h \
+ D:/soft/develop_adt/ndk/platforms/android-19/arch-arm/usr/include/limits.h \
+ D:/soft/develop_adt/ndk/platforms/android-19/arch-arm/usr/include/sys/limits.h \
+ D:/soft/develop_adt/ndk/platforms/android-19/arch-arm/usr/include/linux/limits.h \
+ D:/soft/develop_adt/ndk/platforms/android-19/arch-arm/usr/include/machine/internal_types.h \
+ D:/soft/develop_adt/ndk/platforms/android-19/arch-arm/usr/include/machine/limits.h \
+ D:/soft/develop_adt/ndk/platforms/android-19/arch-arm/usr/include/sys/syslimits.h \
+ D:/soft/develop_adt/ndk/platforms/android-19/arch-arm/usr/include/asm/page.h \
+ D:/soft/develop_adt/ndk/platforms/android-19/arch-arm/usr/include/stdio.h \
+ jni/lua/lauxlib.h jni/lua/lualib.h
 
-/Users/mythkast/Documents/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/stdlib.h:
+D:/soft/develop_adt/ndk/platforms/android-19/arch-arm/usr/include/stdlib.h:
 
-/Users/mythkast/Documents/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/sys/cdefs.h:
+D:/soft/develop_adt/ndk/platforms/android-19/arch-arm/usr/include/sys/cdefs.h:
 
-/Users/mythkast/Documents/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/sys/cdefs_elf.h:
+D:/soft/develop_adt/ndk/platforms/android-19/arch-arm/usr/include/sys/cdefs_elf.h:
 
-/Users/mythkast/Documents/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/android/api-level.h:
+D:/soft/develop_adt/ndk/platforms/android-19/arch-arm/usr/include/android/api-level.h:
 
-/Users/mythkast/Documents/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/string.h:
+D:/soft/develop_adt/ndk/platforms/android-19/arch-arm/usr/include/string.h:
 
-/Users/mythkast/Documents/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/malloc.h:
+D:/soft/develop_adt/ndk/platforms/android-19/arch-arm/usr/include/malloc.h:
 
-/Users/mythkast/Documents/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/alloca.h:
+D:/soft/develop_adt/ndk/platforms/android-19/arch-arm/usr/include/alloca.h:
 
-/Users/mythkast/Documents/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/strings.h:
+D:/soft/develop_adt/ndk/platforms/android-19/arch-arm/usr/include/strings.h:
 
-/Users/mythkast/Documents/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/sys/types.h:
+D:/soft/develop_adt/ndk/platforms/android-19/arch-arm/usr/include/sys/types.h:
 
-/Users/mythkast/Documents/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/stdint.h:
+D:/soft/develop_adt/ndk/platforms/android-19/arch-arm/usr/include/stdint.h:
 
-/Users/mythkast/Documents/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/sys/_types.h:
+D:/soft/develop_adt/ndk/platforms/android-19/arch-arm/usr/include/sys/_types.h:
 
-/Users/mythkast/Documents/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/machine/_types.h:
+D:/soft/develop_adt/ndk/platforms/android-19/arch-arm/usr/include/machine/_types.h:
 
-/Users/mythkast/Documents/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/sys/_wchar_limits.h:
+D:/soft/develop_adt/ndk/platforms/android-19/arch-arm/usr/include/sys/_wchar_limits.h:
 
-/Users/mythkast/Documents/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/linux/posix_types.h:
+D:/soft/develop_adt/ndk/platforms/android-19/arch-arm/usr/include/linux/posix_types.h:
 
-/Users/mythkast/Documents/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/linux/stddef.h:
+D:/soft/develop_adt/ndk/platforms/android-19/arch-arm/usr/include/linux/stddef.h:
 
-/Users/mythkast/Documents/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/linux/compiler.h:
+D:/soft/develop_adt/ndk/platforms/android-19/arch-arm/usr/include/linux/compiler.h:
 
-/Users/mythkast/Documents/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/asm/posix_types.h:
+D:/soft/develop_adt/ndk/platforms/android-19/arch-arm/usr/include/asm/posix_types.h:
 
-/Users/mythkast/Documents/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/asm/types.h:
+D:/soft/develop_adt/ndk/platforms/android-19/arch-arm/usr/include/asm/types.h:
 
-/Users/mythkast/Documents/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/linux/types.h:
+D:/soft/develop_adt/ndk/platforms/android-19/arch-arm/usr/include/linux/types.h:
 
-/Users/mythkast/Documents/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/machine/kernel.h:
+D:/soft/develop_adt/ndk/platforms/android-19/arch-arm/usr/include/machine/kernel.h:
 
-/Users/mythkast/Documents/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/sys/sysmacros.h:
+D:/soft/develop_adt/ndk/platforms/android-19/arch-arm/usr/include/sys/sysmacros.h:
 
-/Users/mythkast/Documents/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/memory.h:
+D:/soft/develop_adt/ndk/platforms/android-19/arch-arm/usr/include/memory.h:
 
-/Users/mythkast/Documents/workspace/pig3android/jni/lua/lua.h:
+jni/lua/lua.h:
 
-/Users/mythkast/Documents/workspace/pig3android/jni/lua/luaconf.h:
+jni/lua/luaconf.h:
 
-/Users/mythkast/Documents/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/limits.h:
+D:/soft/develop_adt/ndk/platforms/android-19/arch-arm/usr/include/limits.h:
 
-/Users/mythkast/Documents/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/sys/limits.h:
+D:/soft/develop_adt/ndk/platforms/android-19/arch-arm/usr/include/sys/limits.h:
 
-/Users/mythkast/Documents/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/linux/limits.h:
+D:/soft/develop_adt/ndk/platforms/android-19/arch-arm/usr/include/linux/limits.h:
 
-/Users/mythkast/Documents/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/machine/internal_types.h:
+D:/soft/develop_adt/ndk/platforms/android-19/arch-arm/usr/include/machine/internal_types.h:
 
-/Users/mythkast/Documents/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/machine/limits.h:
+D:/soft/develop_adt/ndk/platforms/android-19/arch-arm/usr/include/machine/limits.h:
 
-/Users/mythkast/Documents/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/sys/syslimits.h:
+D:/soft/develop_adt/ndk/platforms/android-19/arch-arm/usr/include/sys/syslimits.h:
 
-/Users/mythkast/Documents/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/asm/page.h:
+D:/soft/develop_adt/ndk/platforms/android-19/arch-arm/usr/include/asm/page.h:
 
-/Users/mythkast/Documents/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/stdio.h:
+D:/soft/develop_adt/ndk/platforms/android-19/arch-arm/usr/include/stdio.h:
 
-/Users/mythkast/Documents/workspace/pig3android/jni/lua/lauxlib.h:
+jni/lua/lauxlib.h:
 
-/Users/mythkast/Documents/workspace/pig3android/jni/lua/lualib.h:
+jni/lua/lualib.h:

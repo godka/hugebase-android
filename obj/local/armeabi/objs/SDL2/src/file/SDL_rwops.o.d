@@ -1,197 +1,186 @@
-/Users/mythkast/Documents/workspace/pig3android/obj/local/armeabi/objs/SDL2/src/file/SDL_rwops.o: \
- /Users/mythkast/Documents/workspace/pig3android/jni/SDL2/src/file/SDL_rwops.c \
- /Users/mythkast/Documents/workspace/pig3android/jni/SDL2/include/SDL_config.h \
- /Users/mythkast/Documents/workspace/pig3android/jni/SDL2/include/SDL_platform.h \
- /Users/mythkast/Documents/workspace/pig3android/jni/SDL2/include/begin_code.h \
- /Users/mythkast/Documents/workspace/pig3android/jni/SDL2/include/close_code.h \
- /Users/mythkast/Documents/workspace/pig3android/jni/SDL2/include/SDL_config_android.h \
- /Users/mythkast/Documents/workspace/pig3android/jni/SDL2/include/SDL_endian.h \
- /Users/mythkast/Documents/workspace/pig3android/jni/SDL2/include/SDL_stdinc.h \
- /Users/mythkast/Documents/workspace/pig3android/jni/SDL2/include/SDL_config.h \
- /Users/mythkast/Documents/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/sys/types.h \
- /Users/mythkast/Documents/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/stdint.h \
- /Users/mythkast/Documents/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/sys/_types.h \
- /Users/mythkast/Documents/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/machine/_types.h \
- /Users/mythkast/Documents/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/sys/_wchar_limits.h \
- /Users/mythkast/Documents/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/android/api-level.h \
- /Users/mythkast/Documents/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/sys/cdefs.h \
- /Users/mythkast/Documents/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/sys/cdefs_elf.h \
- /Users/mythkast/Documents/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/linux/posix_types.h \
- /Users/mythkast/Documents/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/linux/stddef.h \
- /Users/mythkast/Documents/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/linux/compiler.h \
- /Users/mythkast/Documents/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/asm/posix_types.h \
- /Users/mythkast/Documents/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/asm/types.h \
- /Users/mythkast/Documents/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/linux/types.h \
- /Users/mythkast/Documents/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/machine/kernel.h \
- /Users/mythkast/Documents/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/sys/sysmacros.h \
- /Users/mythkast/Documents/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/stdio.h \
- /Users/mythkast/Documents/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/stdlib.h \
- /Users/mythkast/Documents/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/string.h \
- /Users/mythkast/Documents/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/malloc.h \
- /Users/mythkast/Documents/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/alloca.h \
- /Users/mythkast/Documents/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/strings.h \
- /Users/mythkast/Documents/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/memory.h \
- /Users/mythkast/Documents/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/inttypes.h \
- /Users/mythkast/Documents/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/ctype.h \
- /Users/mythkast/Documents/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/math.h \
- /Users/mythkast/Documents/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/limits.h \
- /Users/mythkast/Documents/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/sys/limits.h \
- /Users/mythkast/Documents/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/linux/limits.h \
- /Users/mythkast/Documents/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/machine/internal_types.h \
- /Users/mythkast/Documents/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/machine/limits.h \
- /Users/mythkast/Documents/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/sys/syslimits.h \
- /Users/mythkast/Documents/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/asm/page.h \
- /Users/mythkast/Documents/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/endian.h \
- /Users/mythkast/Documents/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/sys/endian.h \
- /Users/mythkast/Documents/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/machine/endian.h \
- /Users/mythkast/Documents/workspace/pig3android/jni/SDL2/include/SDL_rwops.h \
- /Users/mythkast/Documents/workspace/pig3android/jni/SDL2/include/SDL_error.h \
- /Users/mythkast/Documents/workspace/pig3android/jni/SDL2/src/file/../core/android/SDL_android.h \
- /Users/mythkast/Documents/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/EGL/eglplatform.h \
- /Users/mythkast/Documents/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/KHR/khrplatform.h \
- /Users/mythkast/Documents/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/android/native_window.h \
- /Users/mythkast/Documents/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/android/rect.h \
- /Users/mythkast/Documents/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/android/native_window_jni.h \
- /Users/mythkast/Documents/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/jni.h \
- /Users/mythkast/Documents/workspace/pig3android/jni/SDL2/include/SDL_rect.h \
- /Users/mythkast/Documents/workspace/pig3android/jni/SDL2/include/SDL_pixels.h \
- /Users/mythkast/Documents/workspace/pig3android/jni/SDL2/include/SDL_rwops.h \
- /Users/mythkast/Documents/workspace/pig3android/jni/SDL2/include/SDL_system.h \
- /Users/mythkast/Documents/workspace/pig3android/jni/SDL2/include/SDL_keyboard.h \
- /Users/mythkast/Documents/workspace/pig3android/jni/SDL2/include/SDL_keycode.h \
- /Users/mythkast/Documents/workspace/pig3android/jni/SDL2/include/SDL_scancode.h \
- /Users/mythkast/Documents/workspace/pig3android/jni/SDL2/include/SDL_video.h \
- /Users/mythkast/Documents/workspace/pig3android/jni/SDL2/include/SDL_rect.h \
- /Users/mythkast/Documents/workspace/pig3android/jni/SDL2/include/SDL_surface.h \
- /Users/mythkast/Documents/workspace/pig3android/jni/SDL2/include/SDL_blendmode.h \
- /Users/mythkast/Documents/workspace/pig3android/jni/SDL2/include/SDL_render.h
+obj/local/armeabi/objs/SDL2/src/file/SDL_rwops.o: \
+ jni/SDL2/src/file/SDL_rwops.c jni/SDL2/include/SDL_config.h \
+ jni/SDL2/include/SDL_platform.h jni/SDL2/include/begin_code.h \
+ jni/SDL2/include/close_code.h jni/SDL2/include/SDL_config_android.h \
+ jni/SDL2/include/SDL_endian.h jni/SDL2/include/SDL_stdinc.h \
+ jni/SDL2/include/SDL_config.h \
+ D:/soft/develop_adt/ndk/platforms/android-19/arch-arm/usr/include/sys/types.h \
+ D:/soft/develop_adt/ndk/platforms/android-19/arch-arm/usr/include/stdint.h \
+ D:/soft/develop_adt/ndk/platforms/android-19/arch-arm/usr/include/sys/_types.h \
+ D:/soft/develop_adt/ndk/platforms/android-19/arch-arm/usr/include/machine/_types.h \
+ D:/soft/develop_adt/ndk/platforms/android-19/arch-arm/usr/include/sys/_wchar_limits.h \
+ D:/soft/develop_adt/ndk/platforms/android-19/arch-arm/usr/include/android/api-level.h \
+ D:/soft/develop_adt/ndk/platforms/android-19/arch-arm/usr/include/sys/cdefs.h \
+ D:/soft/develop_adt/ndk/platforms/android-19/arch-arm/usr/include/sys/cdefs_elf.h \
+ D:/soft/develop_adt/ndk/platforms/android-19/arch-arm/usr/include/linux/posix_types.h \
+ D:/soft/develop_adt/ndk/platforms/android-19/arch-arm/usr/include/linux/stddef.h \
+ D:/soft/develop_adt/ndk/platforms/android-19/arch-arm/usr/include/linux/compiler.h \
+ D:/soft/develop_adt/ndk/platforms/android-19/arch-arm/usr/include/asm/posix_types.h \
+ D:/soft/develop_adt/ndk/platforms/android-19/arch-arm/usr/include/asm/types.h \
+ D:/soft/develop_adt/ndk/platforms/android-19/arch-arm/usr/include/linux/types.h \
+ D:/soft/develop_adt/ndk/platforms/android-19/arch-arm/usr/include/machine/kernel.h \
+ D:/soft/develop_adt/ndk/platforms/android-19/arch-arm/usr/include/sys/sysmacros.h \
+ D:/soft/develop_adt/ndk/platforms/android-19/arch-arm/usr/include/stdio.h \
+ D:/soft/develop_adt/ndk/platforms/android-19/arch-arm/usr/include/stdlib.h \
+ D:/soft/develop_adt/ndk/platforms/android-19/arch-arm/usr/include/string.h \
+ D:/soft/develop_adt/ndk/platforms/android-19/arch-arm/usr/include/malloc.h \
+ D:/soft/develop_adt/ndk/platforms/android-19/arch-arm/usr/include/alloca.h \
+ D:/soft/develop_adt/ndk/platforms/android-19/arch-arm/usr/include/strings.h \
+ D:/soft/develop_adt/ndk/platforms/android-19/arch-arm/usr/include/memory.h \
+ D:/soft/develop_adt/ndk/platforms/android-19/arch-arm/usr/include/inttypes.h \
+ D:/soft/develop_adt/ndk/platforms/android-19/arch-arm/usr/include/ctype.h \
+ D:/soft/develop_adt/ndk/platforms/android-19/arch-arm/usr/include/math.h \
+ D:/soft/develop_adt/ndk/platforms/android-19/arch-arm/usr/include/limits.h \
+ D:/soft/develop_adt/ndk/platforms/android-19/arch-arm/usr/include/sys/limits.h \
+ D:/soft/develop_adt/ndk/platforms/android-19/arch-arm/usr/include/linux/limits.h \
+ D:/soft/develop_adt/ndk/platforms/android-19/arch-arm/usr/include/machine/internal_types.h \
+ D:/soft/develop_adt/ndk/platforms/android-19/arch-arm/usr/include/machine/limits.h \
+ D:/soft/develop_adt/ndk/platforms/android-19/arch-arm/usr/include/sys/syslimits.h \
+ D:/soft/develop_adt/ndk/platforms/android-19/arch-arm/usr/include/asm/page.h \
+ D:/soft/develop_adt/ndk/platforms/android-19/arch-arm/usr/include/endian.h \
+ D:/soft/develop_adt/ndk/platforms/android-19/arch-arm/usr/include/sys/endian.h \
+ D:/soft/develop_adt/ndk/platforms/android-19/arch-arm/usr/include/machine/endian.h \
+ jni/SDL2/include/SDL_rwops.h jni/SDL2/include/SDL_error.h \
+ jni/SDL2/src/file/../core/android/SDL_android.h \
+ D:/soft/develop_adt/ndk/platforms/android-19/arch-arm/usr/include/EGL/eglplatform.h \
+ D:/soft/develop_adt/ndk/platforms/android-19/arch-arm/usr/include/KHR/khrplatform.h \
+ D:/soft/develop_adt/ndk/platforms/android-19/arch-arm/usr/include/android/native_window.h \
+ D:/soft/develop_adt/ndk/platforms/android-19/arch-arm/usr/include/android/rect.h \
+ D:/soft/develop_adt/ndk/platforms/android-19/arch-arm/usr/include/android/native_window_jni.h \
+ D:/soft/develop_adt/ndk/platforms/android-19/arch-arm/usr/include/jni.h \
+ jni/SDL2/include/SDL_rect.h jni/SDL2/include/SDL_pixels.h \
+ jni/SDL2/include/SDL_rwops.h jni/SDL2/include/SDL_system.h \
+ jni/SDL2/include/SDL_keyboard.h jni/SDL2/include/SDL_keycode.h \
+ jni/SDL2/include/SDL_scancode.h jni/SDL2/include/SDL_video.h \
+ jni/SDL2/include/SDL_rect.h jni/SDL2/include/SDL_surface.h \
+ jni/SDL2/include/SDL_blendmode.h jni/SDL2/include/SDL_render.h
 
-/Users/mythkast/Documents/workspace/pig3android/jni/SDL2/include/SDL_config.h:
+jni/SDL2/include/SDL_config.h:
 
-/Users/mythkast/Documents/workspace/pig3android/jni/SDL2/include/SDL_platform.h:
+jni/SDL2/include/SDL_platform.h:
 
-/Users/mythkast/Documents/workspace/pig3android/jni/SDL2/include/begin_code.h:
+jni/SDL2/include/begin_code.h:
 
-/Users/mythkast/Documents/workspace/pig3android/jni/SDL2/include/close_code.h:
+jni/SDL2/include/close_code.h:
 
-/Users/mythkast/Documents/workspace/pig3android/jni/SDL2/include/SDL_config_android.h:
+jni/SDL2/include/SDL_config_android.h:
 
-/Users/mythkast/Documents/workspace/pig3android/jni/SDL2/include/SDL_endian.h:
+jni/SDL2/include/SDL_endian.h:
 
-/Users/mythkast/Documents/workspace/pig3android/jni/SDL2/include/SDL_stdinc.h:
+jni/SDL2/include/SDL_stdinc.h:
 
-/Users/mythkast/Documents/workspace/pig3android/jni/SDL2/include/SDL_config.h:
+jni/SDL2/include/SDL_config.h:
 
-/Users/mythkast/Documents/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/sys/types.h:
+D:/soft/develop_adt/ndk/platforms/android-19/arch-arm/usr/include/sys/types.h:
 
-/Users/mythkast/Documents/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/stdint.h:
+D:/soft/develop_adt/ndk/platforms/android-19/arch-arm/usr/include/stdint.h:
 
-/Users/mythkast/Documents/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/sys/_types.h:
+D:/soft/develop_adt/ndk/platforms/android-19/arch-arm/usr/include/sys/_types.h:
 
-/Users/mythkast/Documents/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/machine/_types.h:
+D:/soft/develop_adt/ndk/platforms/android-19/arch-arm/usr/include/machine/_types.h:
 
-/Users/mythkast/Documents/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/sys/_wchar_limits.h:
+D:/soft/develop_adt/ndk/platforms/android-19/arch-arm/usr/include/sys/_wchar_limits.h:
 
-/Users/mythkast/Documents/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/android/api-level.h:
+D:/soft/develop_adt/ndk/platforms/android-19/arch-arm/usr/include/android/api-level.h:
 
-/Users/mythkast/Documents/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/sys/cdefs.h:
+D:/soft/develop_adt/ndk/platforms/android-19/arch-arm/usr/include/sys/cdefs.h:
 
-/Users/mythkast/Documents/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/sys/cdefs_elf.h:
+D:/soft/develop_adt/ndk/platforms/android-19/arch-arm/usr/include/sys/cdefs_elf.h:
 
-/Users/mythkast/Documents/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/linux/posix_types.h:
+D:/soft/develop_adt/ndk/platforms/android-19/arch-arm/usr/include/linux/posix_types.h:
 
-/Users/mythkast/Documents/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/linux/stddef.h:
+D:/soft/develop_adt/ndk/platforms/android-19/arch-arm/usr/include/linux/stddef.h:
 
-/Users/mythkast/Documents/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/linux/compiler.h:
+D:/soft/develop_adt/ndk/platforms/android-19/arch-arm/usr/include/linux/compiler.h:
 
-/Users/mythkast/Documents/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/asm/posix_types.h:
+D:/soft/develop_adt/ndk/platforms/android-19/arch-arm/usr/include/asm/posix_types.h:
 
-/Users/mythkast/Documents/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/asm/types.h:
+D:/soft/develop_adt/ndk/platforms/android-19/arch-arm/usr/include/asm/types.h:
 
-/Users/mythkast/Documents/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/linux/types.h:
+D:/soft/develop_adt/ndk/platforms/android-19/arch-arm/usr/include/linux/types.h:
 
-/Users/mythkast/Documents/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/machine/kernel.h:
+D:/soft/develop_adt/ndk/platforms/android-19/arch-arm/usr/include/machine/kernel.h:
 
-/Users/mythkast/Documents/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/sys/sysmacros.h:
+D:/soft/develop_adt/ndk/platforms/android-19/arch-arm/usr/include/sys/sysmacros.h:
 
-/Users/mythkast/Documents/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/stdio.h:
+D:/soft/develop_adt/ndk/platforms/android-19/arch-arm/usr/include/stdio.h:
 
-/Users/mythkast/Documents/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/stdlib.h:
+D:/soft/develop_adt/ndk/platforms/android-19/arch-arm/usr/include/stdlib.h:
 
-/Users/mythkast/Documents/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/string.h:
+D:/soft/develop_adt/ndk/platforms/android-19/arch-arm/usr/include/string.h:
 
-/Users/mythkast/Documents/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/malloc.h:
+D:/soft/develop_adt/ndk/platforms/android-19/arch-arm/usr/include/malloc.h:
 
-/Users/mythkast/Documents/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/alloca.h:
+D:/soft/develop_adt/ndk/platforms/android-19/arch-arm/usr/include/alloca.h:
 
-/Users/mythkast/Documents/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/strings.h:
+D:/soft/develop_adt/ndk/platforms/android-19/arch-arm/usr/include/strings.h:
 
-/Users/mythkast/Documents/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/memory.h:
+D:/soft/develop_adt/ndk/platforms/android-19/arch-arm/usr/include/memory.h:
 
-/Users/mythkast/Documents/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/inttypes.h:
+D:/soft/develop_adt/ndk/platforms/android-19/arch-arm/usr/include/inttypes.h:
 
-/Users/mythkast/Documents/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/ctype.h:
+D:/soft/develop_adt/ndk/platforms/android-19/arch-arm/usr/include/ctype.h:
 
-/Users/mythkast/Documents/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/math.h:
+D:/soft/develop_adt/ndk/platforms/android-19/arch-arm/usr/include/math.h:
 
-/Users/mythkast/Documents/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/limits.h:
+D:/soft/develop_adt/ndk/platforms/android-19/arch-arm/usr/include/limits.h:
 
-/Users/mythkast/Documents/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/sys/limits.h:
+D:/soft/develop_adt/ndk/platforms/android-19/arch-arm/usr/include/sys/limits.h:
 
-/Users/mythkast/Documents/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/linux/limits.h:
+D:/soft/develop_adt/ndk/platforms/android-19/arch-arm/usr/include/linux/limits.h:
 
-/Users/mythkast/Documents/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/machine/internal_types.h:
+D:/soft/develop_adt/ndk/platforms/android-19/arch-arm/usr/include/machine/internal_types.h:
 
-/Users/mythkast/Documents/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/machine/limits.h:
+D:/soft/develop_adt/ndk/platforms/android-19/arch-arm/usr/include/machine/limits.h:
 
-/Users/mythkast/Documents/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/sys/syslimits.h:
+D:/soft/develop_adt/ndk/platforms/android-19/arch-arm/usr/include/sys/syslimits.h:
 
-/Users/mythkast/Documents/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/asm/page.h:
+D:/soft/develop_adt/ndk/platforms/android-19/arch-arm/usr/include/asm/page.h:
 
-/Users/mythkast/Documents/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/endian.h:
+D:/soft/develop_adt/ndk/platforms/android-19/arch-arm/usr/include/endian.h:
 
-/Users/mythkast/Documents/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/sys/endian.h:
+D:/soft/develop_adt/ndk/platforms/android-19/arch-arm/usr/include/sys/endian.h:
 
-/Users/mythkast/Documents/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/machine/endian.h:
+D:/soft/develop_adt/ndk/platforms/android-19/arch-arm/usr/include/machine/endian.h:
 
-/Users/mythkast/Documents/workspace/pig3android/jni/SDL2/include/SDL_rwops.h:
+jni/SDL2/include/SDL_rwops.h:
 
-/Users/mythkast/Documents/workspace/pig3android/jni/SDL2/include/SDL_error.h:
+jni/SDL2/include/SDL_error.h:
 
-/Users/mythkast/Documents/workspace/pig3android/jni/SDL2/src/file/../core/android/SDL_android.h:
+jni/SDL2/src/file/../core/android/SDL_android.h:
 
-/Users/mythkast/Documents/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/EGL/eglplatform.h:
+D:/soft/develop_adt/ndk/platforms/android-19/arch-arm/usr/include/EGL/eglplatform.h:
 
-/Users/mythkast/Documents/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/KHR/khrplatform.h:
+D:/soft/develop_adt/ndk/platforms/android-19/arch-arm/usr/include/KHR/khrplatform.h:
 
-/Users/mythkast/Documents/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/android/native_window.h:
+D:/soft/develop_adt/ndk/platforms/android-19/arch-arm/usr/include/android/native_window.h:
 
-/Users/mythkast/Documents/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/android/rect.h:
+D:/soft/develop_adt/ndk/platforms/android-19/arch-arm/usr/include/android/rect.h:
 
-/Users/mythkast/Documents/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/android/native_window_jni.h:
+D:/soft/develop_adt/ndk/platforms/android-19/arch-arm/usr/include/android/native_window_jni.h:
 
-/Users/mythkast/Documents/android-ndk-r9d/platforms/android-19/arch-arm/usr/include/jni.h:
+D:/soft/develop_adt/ndk/platforms/android-19/arch-arm/usr/include/jni.h:
 
-/Users/mythkast/Documents/workspace/pig3android/jni/SDL2/include/SDL_rect.h:
+jni/SDL2/include/SDL_rect.h:
 
-/Users/mythkast/Documents/workspace/pig3android/jni/SDL2/include/SDL_pixels.h:
+jni/SDL2/include/SDL_pixels.h:
 
-/Users/mythkast/Documents/workspace/pig3android/jni/SDL2/include/SDL_rwops.h:
+jni/SDL2/include/SDL_rwops.h:
 
-/Users/mythkast/Documents/workspace/pig3android/jni/SDL2/include/SDL_system.h:
+jni/SDL2/include/SDL_system.h:
 
-/Users/mythkast/Documents/workspace/pig3android/jni/SDL2/include/SDL_keyboard.h:
+jni/SDL2/include/SDL_keyboard.h:
 
-/Users/mythkast/Documents/workspace/pig3android/jni/SDL2/include/SDL_keycode.h:
+jni/SDL2/include/SDL_keycode.h:
 
-/Users/mythkast/Documents/workspace/pig3android/jni/SDL2/include/SDL_scancode.h:
+jni/SDL2/include/SDL_scancode.h:
 
-/Users/mythkast/Documents/workspace/pig3android/jni/SDL2/include/SDL_video.h:
+jni/SDL2/include/SDL_video.h:
 
-/Users/mythkast/Documents/workspace/pig3android/jni/SDL2/include/SDL_rect.h:
+jni/SDL2/include/SDL_rect.h:
 
-/Users/mythkast/Documents/workspace/pig3android/jni/SDL2/include/SDL_surface.h:
+jni/SDL2/include/SDL_surface.h:
 
-/Users/mythkast/Documents/workspace/pig3android/jni/SDL2/include/SDL_blendmode.h:
+jni/SDL2/include/SDL_blendmode.h:
 
-/Users/mythkast/Documents/workspace/pig3android/jni/SDL2/include/SDL_render.h:
+jni/SDL2/include/SDL_render.h:
