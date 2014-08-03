@@ -170,6 +170,10 @@ public class SDLActivity extends Activity {
             ) {
             return false;
         }
+        if (keyCode == KeyEvent.KEYCODE_BACK) {
+        	SDLActivity.onNativeKeyDown(27);
+        	return false;
+        }
         return super.dispatchKeyEvent(event);
     }
 
