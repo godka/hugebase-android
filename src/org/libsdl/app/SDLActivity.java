@@ -14,6 +14,7 @@ import android.view.inputmethod.EditorInfo;
 import android.view.inputmethod.InputConnection;
 import android.view.inputmethod.InputMethodManager;
 import android.widget.AbsoluteLayout;
+import android.widget.Toast;
 import android.os.*;
 import android.util.Log;
 import android.graphics.*;
@@ -99,6 +100,12 @@ public class SDLActivity extends Activity {
 
         setContentView(mLayout);
         getWindow().addFlags(WindowManager.LayoutParams.FLAG_KEEP_SCREEN_ON);
+        
+        String tmpFilePath = 
+        Environment.getExternalStorageDirectory().getPath() + 
+				"/Android/data/" + this.getPackageName() + "/files/";
+		Toast.makeText(SDLActivity.this, tmpFilePath, Toast.LENGTH_SHORT).show();
+
     }
 
     // Events
