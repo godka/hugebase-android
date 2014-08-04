@@ -188,7 +188,7 @@ public class SDLActivity extends Activity {
         SDLActivity.initialize();
     }
 
-	@Override
+	/*@Override
 	public boolean onCreateOptionsMenu(Menu menu)
 	{
 		super.onCreateOptionsMenu(menu);
@@ -204,12 +204,12 @@ public class SDLActivity extends Activity {
 		{
 			case Menu.FIRST:
 			{
-				SDLActivity.onNativeKeyDown(27);
+				SDLActivity.onNativeKeyUp(27);
 				break;
 			}
 		}
 		return super.onOptionsItemSelected(item);
-	}
+	}*/
 	
     @Override
     public boolean dispatchKeyEvent(KeyEvent event) {
@@ -232,6 +232,7 @@ public class SDLActivity extends Activity {
         	       .setPositiveButton("Yes", new DialogInterface.OnClickListener() {
         	           public void onClick(DialogInterface dialog, int id) {
         	                SDLActivity.this.finish();
+        	                System.exit(0); 
         	           }
         	       })
         	       .setNegativeButton("No", new DialogInterface.OnClickListener() {
@@ -244,7 +245,7 @@ public class SDLActivity extends Activity {
     		}
         	return false;
         }else if(keyCode == 82){
-			SDLActivity.onNativeKeyDown(27);
+			//SDLActivity.onNativeKeyUp(27);
 			return false;
     	}
         return super.dispatchKeyEvent(event);
