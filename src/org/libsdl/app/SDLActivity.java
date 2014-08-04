@@ -49,12 +49,14 @@ public class SDLActivity extends Activity {
     static {
         System.loadLibrary("SDL2");
         System.loadLibrary("SDL2_image");
-        System.loadLibrary("SDL2_mixer");
+        //System.loadLibrary("SDL2_mixer");
         //System.loadLibrary("SDL2_net");
         System.loadLibrary("SDL2_ttf");
-        System.loadLibrary("kys_pig3");
         System.loadLibrary("bass");
         System.loadLibrary("bassmidi");
+        System.loadLibrary("lua");
+        System.loadLibrary("mythoutput");
+        System.loadLibrary("kys_pig3");
         System.loadLibrary("main");
     }
     

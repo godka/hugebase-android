@@ -1,1 +1,1 @@
-int Run(void);
+void Run(void);
