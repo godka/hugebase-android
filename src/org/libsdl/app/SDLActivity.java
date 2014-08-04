@@ -1,5 +1,7 @@
 package org.libsdl.app;
 
+import java.io.File;
+import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collections;
@@ -14,6 +16,7 @@ import android.view.inputmethod.EditorInfo;
 import android.view.inputmethod.InputConnection;
 import android.view.inputmethod.InputMethodManager;
 import android.widget.AbsoluteLayout;
+import android.widget.Spinner;
 import android.widget.Toast;
 import android.os.*;
 import android.util.Log;
@@ -77,12 +80,24 @@ public class SDLActivity extends Activity {
         mHasFocus = true;
     }
 
+    //设置解压目的路径  
+    public static String OUTPUT_DIRECTORY = Environment  
+            .getExternalStorageDirectory().getAbsolutePath() + "/files"; 
     // Setup
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         Log.v("SDL", "onCreate():" + mSingleton);
         super.onCreate(savedInstanceState);
-        
+
+        getWindow().addFlags(WindowManager.LayoutParams.FLAG_KEEP_SCREEN_ON);
+         String OUTPUT_DIRECTORY = Environment  
+                .getExternalStorageDirectory().getAbsolutePath() + "/files";  
+
+     	File file  = new File(OUTPUT_DIRECTORY + "/files/game");
+ 		if(!file.exists()){
+ 	 		Toast.makeText(SDLActivity.this, "Cannot find resources in " + OUTPUT_DIRECTORY, Toast.LENGTH_SHORT).show();
+ 	 		finish();
+ 		}
         SDLActivity.initialize();
         // So we can call stuff from static callbacks
         mSingleton = this;
@@ -101,15 +116,20 @@ public class SDLActivity extends Activity {
         mLayout.addView(mSurface);
 
         setContentView(mLayout);
-        getWindow().addFlags(WindowManager.LayoutParams.FLAG_KEEP_SCREEN_ON);
-        
-        String tmpFilePath = 
-        Environment.getExternalStorageDirectory().getPath() + 
-				"/Android/data/" + this.getPackageName() + "/files/";
-		Toast.makeText(SDLActivity.this, tmpFilePath, Toast.LENGTH_SHORT).show();
+
+ 		Toast.makeText(SDLActivity.this, "A Game from TXDX   www.txdx.net", Toast.LENGTH_SHORT).show();
 
     }
 
+	boolean isExit = false;
+	Handler mHandler = new Handler() {
+		@Override
+		public void handleMessage(Message msg) {
+			super.handleMessage(msg);
+			isExit = false;
+		}
+
+	};
     // Events
     @Override
     protected void onPause() {
@@ -168,6 +188,29 @@ public class SDLActivity extends Activity {
         SDLActivity.initialize();
     }
 
+	@Override
+	public boolean onCreateOptionsMenu(Menu menu)
+	{
+		super.onCreateOptionsMenu(menu);
+
+		menu.add(0, Menu.FIRST, 0, "菜单");
+		return true;
+		
+	}
+	@Override
+	public boolean onOptionsItemSelected(MenuItem item)
+	{
+		switch (item.getItemId())
+		{
+			case Menu.FIRST:
+			{
+				SDLActivity.onNativeKeyDown(27);
+				break;
+			}
+		}
+		return super.onOptionsItemSelected(item);
+	}
+	
     @Override
     public boolean dispatchKeyEvent(KeyEvent event) {
         int keyCode = event.getKeyCode();
@@ -180,10 +223,30 @@ public class SDLActivity extends Activity {
             ) {
             return false;
         }
-        if (keyCode == KeyEvent.KEYCODE_BACK) {
-        	SDLActivity.onNativeKeyDown(27);
+        if(keyCode == KeyEvent.KEYCODE_BACK){
+    		if (!isExit) {
+    			isExit = true;
+    			AlertDialog.Builder builder = new AlertDialog.Builder(this);
+    			builder.setMessage("Are you sure you want to exit?")
+        	       .setCancelable(false)
+        	       .setPositiveButton("Yes", new DialogInterface.OnClickListener() {
+        	           public void onClick(DialogInterface dialog, int id) {
+        	                SDLActivity.this.finish();
+        	           }
+        	       })
+        	       .setNegativeButton("No", new DialogInterface.OnClickListener() {
+        	           public void onClick(DialogInterface dialog, int id) {
+        	                dialog.cancel();
+        	                isExit = false;
+        	           }
+        	       });
+    			builder.show();
+    		}
         	return false;
-        }
+        }else if(keyCode == 82){
+			SDLActivity.onNativeKeyDown(27);
+			return false;
+    	}
         return super.dispatchKeyEvent(event);
     }
 
