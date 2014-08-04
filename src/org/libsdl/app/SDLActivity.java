@@ -90,10 +90,10 @@ public class SDLActivity extends Activity {
         super.onCreate(savedInstanceState);
 
         getWindow().addFlags(WindowManager.LayoutParams.FLAG_KEEP_SCREEN_ON);
-         String OUTPUT_DIRECTORY = Environment  
-                .getExternalStorageDirectory().getAbsolutePath() + "/files";  
+         String OUTPUT_DIRECTORY = Environment.getExternalStorageDirectory().getPath() + "/Android/data/" + this.getPackageName() + "/files/";
+     	
 
-     	File file  = new File(OUTPUT_DIRECTORY + "/files/game");
+     	File file  = new File(OUTPUT_DIRECTORY + "/game");
  		if(!file.exists()){
  	 		Toast.makeText(SDLActivity.this, "Cannot find resources in " + OUTPUT_DIRECTORY, Toast.LENGTH_SHORT).show();
  	 		finish();
