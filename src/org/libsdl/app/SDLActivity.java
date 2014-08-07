@@ -95,10 +95,9 @@ public class SDLActivity extends Activity {
 
      	File file  = new File(OUTPUT_DIRECTORY + "/game");
  		if(!file.exists()){
- 			if(!file.mkdirs()){
+ 			if(!new File(OUTPUT_DIRECTORY).mkdirs()){
  				//not good
- 				Toast.makeText(SDLActivity.this, "make dirs error!", Toast.LENGTH_SHORT).show();
- 	 	 		
+ 				Toast.makeText(SDLActivity.this, "make dirs error!", Toast.LENGTH_SHORT).show(); 	 	 		
  			}
  	 		Toast.makeText(SDLActivity.this, "Cannot find resources in " + OUTPUT_DIRECTORY, Toast.LENGTH_SHORT).show();
  	 		finish();
@@ -122,7 +121,7 @@ public class SDLActivity extends Activity {
 
         setContentView(mLayout);
 
- 		Toast.makeText(SDLActivity.this, "A Game from TXDX   www.txdx.net", Toast.LENGTH_SHORT).show();
+ 		//Toast.makeText(SDLActivity.this, "A Game from TXDX   www.txdx.net", Toast.LENGTH_SHORT).show();
 
     }
 
