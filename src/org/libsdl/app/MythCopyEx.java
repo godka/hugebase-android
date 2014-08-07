@@ -8,16 +8,19 @@ import android.app.ProgressDialog;
 import android.content.Intent;
 import android.os.Bundle;
 import android.os.Environment;
+import android.util.Log;
 
 public class MythCopyEx extends Activity {
 
     //设置解压目的路径  
-    public static String OUTPUT_DIRECTORY = Environment  
-            .getExternalStorageDirectory().getAbsolutePath() + "/files";  
+     
   
     @Override  
     public void onCreate(Bundle savedInstanceState) {  
-    	File file  = new File(OUTPUT_DIRECTORY + "/files/game");
+        super.onCreate(savedInstanceState);
+        final String OUTPUT_DIRECTORY = Environment.getExternalStorageDirectory().getPath() + "/Android/data/" + this.getPackageName() + "/files/";
+     	
+    	File file  = new File(OUTPUT_DIRECTORY + "/game");
 		if(file.exists()){
 
 			Intent intent = new Intent();
@@ -27,6 +30,7 @@ public class MythCopyEx extends Activity {
 			startActivity(intent);
 			finish();
 		}else{
+			file.mkdirs();
 			final ProgressDialog dialog = new ProgressDialog(MythCopyEx.this);  
 			dialog.setTitle("提示");  
 			dialog.setMessage("正在解压文件，请稍后！");  
@@ -36,14 +40,13 @@ public class MythCopyEx extends Activity {
                 //在新线程中以同名覆盖方式解压  
     				try {  
     					MythUnzipfiles.unZip(MythCopyEx.this, "game.zip", OUTPUT_DIRECTORY, true);  
-
     					Intent intent = new Intent();
     					Bundle bundle = new Bundle();
     					intent.putExtras(bundle);
     					intent.setClass(MythCopyEx.this, SDLActivity.class);
     					startActivity(intent);
     					finish();
-        			
+    					System.exit(0);
     				} catch (IOException e) {  
                     // TODO Auto-generated catch block  
     					e.printStackTrace();  

@@ -16,6 +16,7 @@ import android.view.inputmethod.EditorInfo;
 import android.view.inputmethod.InputConnection;
 import android.view.inputmethod.InputMethodManager;
 import android.widget.AbsoluteLayout;
+import android.widget.EditText;
 import android.widget.Spinner;
 import android.widget.Toast;
 import android.os.*;
@@ -30,7 +31,7 @@ import android.hardware.*;
 */
 public class SDLActivity extends Activity {
     private static final String TAG = "SDL";
-
+    private static SDLActivity mactivity;
     // Keep track of the paused state
     public static boolean mIsPaused, mIsSurfaceReady, mHasFocus;
     public static boolean mExitCalledFromJava;
@@ -80,17 +81,15 @@ public class SDLActivity extends Activity {
         mHasFocus = true;
     }
 
-    //设置解压目的路径  
-    public static String OUTPUT_DIRECTORY = Environment  
-            .getExternalStorageDirectory().getAbsolutePath() + "/files"; 
     // Setup
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         Log.v("SDL", "onCreate():" + mSingleton);
         super.onCreate(savedInstanceState);
 
+    	mactivity = this;
         getWindow().addFlags(WindowManager.LayoutParams.FLAG_KEEP_SCREEN_ON);
-         String OUTPUT_DIRECTORY = Environment.getExternalStorageDirectory().getPath() + "/Android/data/" + this.getPackageName() + "/files/";
+        String OUTPUT_DIRECTORY = Environment.getExternalStorageDirectory().getPath() + "/Android/data/" + this.getPackageName() + "/files/";
      	
 
      	File file  = new File(OUTPUT_DIRECTORY + "/game");
@@ -284,7 +283,25 @@ public class SDLActivity extends Activity {
         SDLActivity.mSDLThread = null;
         mSingleton.finish();
     }
+	//static String tmpid = "";
+    public String mythSetName(){
+    	Log.v("KYS", "Try to input the name.");
+    	String tmpid="KA大帝";
 
+    	AlertDialog.Builder builder = new AlertDialog.Builder(mactivity);
+    	builder.setTitle("Server");/*
+    	.setIcon(android.R.drawable.ic_dialog_info)
+    	//.setView(inputServer)
+        .setNegativeButton("Cancel", null);
+    	/*builder.setPositiveButton("Ok", new DialogInterface.OnClickListener() {
+    		public void onClick(DialogInterface dialog, int which) {
+    	    	EditText inputServer = new EditText(mactivity);
+    			//tmpid = inputServer.getText().toString();
+    		}
+    	});*/
+    	//builder.show();
+		return tmpid;
+    }
 
     // Messages from the SDLMain thread
     static final int COMMAND_CHANGE_TITLE = 1;
@@ -814,6 +831,8 @@ class SDLSurface extends SurfaceView implements SurfaceHolder.Callback,
                 i = 0;
             case MotionEvent.ACTION_POINTER_UP:
             case MotionEvent.ACTION_POINTER_DOWN:
+            case MotionEvent.ACTION_POINTER_2_DOWN:
+            case MotionEvent.ACTION_POINTER_2_UP:
                 // Non primary pointer up/down
                 if (i == -1) {
                     i = event.getActionIndex();
