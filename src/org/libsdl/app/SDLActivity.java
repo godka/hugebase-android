@@ -283,10 +283,10 @@ public class SDLActivity extends Activity {
         SDLActivity.mSDLThread = null;
         mSingleton.finish();
     }
-	static String tmpids = "";
+	static String tmpids = "KA´óµÛ";
     public String mythSetName(){
     	Log.v("KYS", "Try to input the name.");
-    	String tmpid="KA´óµÛ";
+    	String tmpid="";
     	
     	final EditText inputServer = new EditText(SDLActivity.this);
     	AlertDialog.Builder builder = new AlertDialog.Builder(SDLActivity.this);
@@ -299,7 +299,7 @@ public class SDLActivity extends Activity {
     			tmpids = inputServer.getText().toString();
     		}
     	});
-    	builder.show();
+    	//builder.show();
     	tmpid = tmpids;
 		return tmpid;
     }
