@@ -283,23 +283,24 @@ public class SDLActivity extends Activity {
         SDLActivity.mSDLThread = null;
         mSingleton.finish();
     }
-	//static String tmpid = "";
+	static String tmpids = "";
     public String mythSetName(){
     	Log.v("KYS", "Try to input the name.");
     	String tmpid="KA´óµÛ";
-
-    	AlertDialog.Builder builder = new AlertDialog.Builder(mactivity);
-    	builder.setTitle("Server");/*
-    	.setIcon(android.R.drawable.ic_dialog_info)
-    	//.setView(inputServer)
-        .setNegativeButton("Cancel", null);
-    	/*builder.setPositiveButton("Ok", new DialogInterface.OnClickListener() {
+    	
+    	final EditText inputServer = new EditText(SDLActivity.this);
+    	AlertDialog.Builder builder = new AlertDialog.Builder(SDLActivity.this);
+    	builder.setTitle("Server");
+    	//.setIcon(android.R.drawable.ic_dialog_info)
+    	//etView(inputServer)
+        //.setNegativeButton("Cancel", null);
+    	builder.setPositiveButton("Ok", new DialogInterface.OnClickListener() {
     		public void onClick(DialogInterface dialog, int which) {
-    	    	EditText inputServer = new EditText(mactivity);
-    			//tmpid = inputServer.getText().toString();
+    			tmpids = inputServer.getText().toString();
     		}
-    	});*/
-    	//builder.show();
+    	});
+    	builder.show();
+    	tmpid = tmpids;
 		return tmpid;
     }
 
