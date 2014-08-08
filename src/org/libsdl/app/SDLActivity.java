@@ -120,7 +120,7 @@ public class SDLActivity extends Activity {
 
         setContentView(mLayout);
 
- 		//Toast.makeText(SDLActivity.this, "A Game from TXDX   www.txdx.net", Toast.LENGTH_SHORT).show();
+ 		Toast.makeText(SDLActivity.this, "A Game from TXDX   www.txdx.net", Toast.LENGTH_SHORT).show();
 
     }
 
@@ -287,8 +287,8 @@ public class SDLActivity extends Activity {
     public String mythSetName(){
     	Log.v("KYS", "Try to input the name.");
     	String tmpid="";
-    	
-    	final EditText inputServer = new EditText(SDLActivity.this);
+    	/*
+    	//EditText inputServer = new EditText(SDLActivity.this);
     	AlertDialog.Builder builder = new AlertDialog.Builder(SDLActivity.this);
     	builder.setTitle("Server");
     	//.setIcon(android.R.drawable.ic_dialog_info)
@@ -296,12 +296,29 @@ public class SDLActivity extends Activity {
         //.setNegativeButton("Cancel", null);
     	builder.setPositiveButton("Ok", new DialogInterface.OnClickListener() {
     		public void onClick(DialogInterface dialog, int which) {
-    			tmpids = inputServer.getText().toString();
+    		//	tmpids = inputServer.getText().toString();
     		}
     	});
-    	//builder.show();
+    	builder.show();
     	tmpid = tmpids;
-		return tmpid;
+    	*/
+    	Global.UserName = "";
+    	Intent intent = new Intent();
+		Bundle bundle = new Bundle();
+		intent.putExtras(bundle);
+		intent.setClass(SDLActivity.this, MythSetName.class);
+		startActivityForResult(intent, 0);
+		while(Global.UserName == ""){
+			try {
+				Thread.sleep(30);
+			} catch (InterruptedException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
+		}
+		String ret = Global.UserName;
+		
+		return ret;
     }
 
     // Messages from the SDLMain thread
