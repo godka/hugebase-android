@@ -1,4 +1,4 @@
-# hugebase for android
+# 向金庸先生致敬
 <img src='https://raw.githubusercontent.com/scarsty/hugebase/master/logo.png' width='20%'/>
 
 All heros in Kam Yung stories - 108 brothers and sisters
