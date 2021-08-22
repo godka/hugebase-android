@@ -1,13 +1,12 @@
 # 向金庸先生致敬
-<img src='https://raw.githubusercontent.com/scarsty/hugebase/master/logo.png' width='20%'/>
+
+<img src='https://raw.githubusercontent.com/scarsty/kys-more/master/mods/hugebase/13.png' width='60%'/>
 
 All heros in Kam Yung stories - 108 brothers and sisters
 
 *The final edition*
 
-<img src='https://raw.githubusercontent.com/scarsty/hugebase/master/12.png'/>
-
-<img src='https://raw.githubusercontent.com/scarsty/hugebase/master/12宝树王.jpg'/>
+<img src='https://raw.githubusercontent.com/scarsty/kys-more/master/mods/hugebase/12.jpg'/>
 
 ## license
 
